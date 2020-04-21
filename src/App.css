@@ -1,22 +1,1191 @@
-.App {
-  text-align: center;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
+html {
+    min-height: 100%;
+    position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.values {
+    text-align: left;
+    color: #00ACDA;
+    font-size: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+.colon {
+    text-align: left;
+    color: #555;
+    font-size: 20px;
 }
+
+.keys {
+    color: #383C3D;
+    font-size: 20px;
+}
+
+body {
+    padding-top: 125px;
+    background-color: #EBEBEB;
+    margin-bottom: 269px;
+}
+
+.container-fluid {
+    padding: 0px 0px;
+}
+
+.navbarBGC {
+    background-color: #EBEBEB;
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.togglebar {
+    color: #00ACDA;
+}
+
+.togglebar:hover {
+    color: #383C3D;
+}
+
+.navbar-default {
+    transition: 500ms ease;
+}
+
+.scrolled {
+    background: transparent;
+    box-shadow: none;
+}
+
+.logo {
+    transition: 500ms ease;
+}
+
+.smallLogo {
+    height: 40px;
+    margin-left: 0px !important;
+}
+
+.ul {
+    height: 37px;
+}
+
+.btnhome,
+.btnservices,
+.btnprojects,
+.btntestimonials,
+.btncontactus,
+.btnfmdevndesign,
+.btnViewDetails,
+.btnSend,
+.li-btn,
+.btnApply,
+.btnShowCard {
+    background-color: #00ACDA;
+    border: none;
+}
+
+.btnhome:hover,
+.btnservices:hover,
+.btnprojects:hover,
+.btntestimonials:hover,
+.btncontactus:hover,
+.btnfmdevndesign:hover,
+.btnViewDetails:hover,
+.btnSend:hover,
+.li-btn:hover,
+.btnApply:hover,
+.btnShowCard:hover {
+    background-color: #383C3D;
+    border: none;
+}
+
+.btnApply {
+    cursor: pointer;
+}
+
+.banner {
+    background-color: black;
+    position: relative;
+}
+
+.banner-img {
+    opacity: 0.3;
+}
+
+.caption {
+    width: 750px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.caption h1 {
+    font-size: 3em;
+    color: #00ACDA;
+    font-family: sans-serif;
+}
+
+.caption .h3-form-headings {
+    font-size: 30px;
+    color: #00ACDA;
+    font-family: sans-serif;
+}
+
+.services,
+.projects,
+.web,
+.graphics {
+    background-color: #EBEBEB;
+}
+
+.services-heading,
+.projects-heading,
+.h1-websiteDeveloment,
+.h2-Languages,
+.h1-graphics,
+.h2-Tools,
+.courses-heading,
+.application-heading,
+.idCard-Heading,
+.webAndMobileApp {
+    color: #00ACDA;
+}
+
+.services-heading~p,
+.idCard-Heading~p {
+    font-size: 25px;
+    font-family: 'ubuntu condensed', sans-serif !important;
+}
+
+.card {
+    background-color: #EBEBEB;
+}
+
+.card-image {
+    width: 100px;
+    height: 75px;
+    margin: 10px auto;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 75px;
+    opacity: 0.7;
+    color: #383C3D;
+    margin: 10px auto;
+}
+
+.card-title {
+    color: #00ACDA;
+}
+
+.webCourseHeading {
+    background-color: #00ACDA;
+    /* width: 50%; */
+}
+
+.webAndMobileApp {
+    width: 50%;
+    height: 200px;
+    color: #EBEBEB;
+    text-align: center;
+    line-height: 200px;
+    /* border: 1px double #00ACDA; */
+}
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.contact-form {
+    padding: 35px;
+}
+
+.contact p {
+    color: #00ACDA;
+    font-size: 20px;
+}
+
+.contact a {
+    color: #00ACDA;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.li-btn {
+    border-radius: 0px;
+}
+
+.li-btn:hover {
+    cursor: pointer;
+}
+
+.language {
+    display: none;
+}
+
+.tool {
+    display: none;
+}
+
+.goToTop {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    color: #00ACDA;
+    text-align: center;
+    position: relative;
+}
+
+.goToTop:hover {
+    cursor: pointer;
+    color: #252525;
+}
+
+.footer {
+    background-color: #383C3D;
+    height: 269px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    /* position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -9999; */
+}
+
+.fm-svg {
+    height: 20px;
+}
+
+.copyright {
+    background-color: #252525;
+    color: #EBEBEB;
+}
+
+.copyright Link {
+    text-decoration-style: none;
+    color: #EBEBEB;
+}
+
+.brands {
+    font-size: 70px;
+}
+
+.instagram,
+.linkedin,
+.twitter,
+.facebook {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #00ACDA;
+}
+
+.instagram:hover,
+.linkedin:hover,
+.twitter:hover,
+.facebook:hover {
+    color: #EBEBEB;
+}
+
+.landingPage {
+    background-color: #383C3D;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+}
+
+.uploadedImg {
+    height: 2.5in;
+    width: 2in;
+    background-color: white;
+    border: 1px solid #BDBEC2;
+    padding: 6px;
+    opacity: 0.7;
+    color: #383C3D;
+    margin: 10px auto;
+}
+
+.uploadedImg:hover {
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.apply,
+.register {
+    -moz-box-shadow: 0px 10px 14px -7px #00ACDA;
+    -webkit-box-shadow: 0px 10px 14px -7px #00ACDA;
+    box-shadow: 0px 10px 14px -7px #00ACDA;
+    background-color: #00ACDA;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #EBEBEB;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #696969;
+    text-decoration: none;
+}
+
+.apply:hover,
+.register:hover {
+    animation-name: applyButton;
+    animation-duration: 0.5s;
+    -moz-box-shadow: 0px 10px 14px -7px #383C3D;
+    -webkit-box-shadow: 0px 10px 14px -7px #383C3D;
+    box-shadow: 0px 10px 14px -7px #383C3D;
+    background-color: #383C3D;
+    color: #F0F0F0;
+    text-shadow: 0px 1px 0px #BDBEC2;
+}
+
+@keyframes applyButton {
+    from {
+        -moz-box-shadow: 0px 10px 14px -7px #00ACDA;
+        -webkit-box-shadow: 0px 10px 14px -7px #00ACDA;
+        box-shadow: 0px 10px 14px -7px #00ACDA;
+        background-color: #00ACDA;
+        color: #BDBEC2;
+        text-shadow: 0px 1px 0px #696969;
+    }
+    to {
+        -moz-box-shadow: 0px 10px 14px -7px #383C3D;
+        -webkit-box-shadow: 0px 10px 14px -7px #383C3D;
+        box-shadow: 0px 10px 14px -7px #383C3D;
+        background-color: #383C3D;
+        color: #F0F0F0;
+        text-shadow: 0px 1px 0px #BDBEC2;
+    }
+}
+
+.apply:active,
+.register:active {
+    position: relative;
+    top: 1px;
+}
+
+.allreadyApplied {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* Application Form Start*/
+
+.h3-form-headings,
+.h3-uploadPhoto,
+.h3-instructions {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #383C3D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px ridge #BDBEC2;
+}
+
+.applied {
+    -moz-box-shadow: 0px 10px 14px -7px #00ACDA;
+    -webkit-box-shadow: 0px 10px 14px -7px #00ACDA;
+    box-shadow: 0px 10px 14px -7px #00ACDA;
+    background-color: #383C3D;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #EBEBEB;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #696969;
+    text-decoration: none;
+}
+
+.applied:hover {
+    animation-name: buttonColorChange;
+    animation-duration: 0.5s;
+    -moz-box-shadow: 0px 10px 14px -7px #00ACDA;
+    -webkit-box-shadow: 0px 10px 14px -7px #00ACDA;
+    box-shadow: 0px 10px 14px -7px #00ACDA;
+    background-color: #00ACDA;
+    color: #F0F0F0;
+    text-shadow: 0px 1px 0px #BDBEC2;
+}
+
+@keyframes buttonColorChange {
+    from {
+        /* -moz-box-shadow: 0px 10px 14px -7px #383C3D;
+      -webkit-box-shadow: 0px 10px 14px -7px #383C3D;
+      box-shadow: 0px 10px 14px -7px #383C3D; */
+        background-color: #383C3D;
+        color: #BDBEC2;
+        text-shadow: 0px 1px 0px #696969;
+    }
+    to {
+        -moz-box-shadow: 0px 10px 14px -7px #00ACDA;
+        -webkit-box-shadow: 0px 10px 14px -7px #00ACDA;
+        box-shadow: 0px 10px 14px -7px #00ACDA;
+        background-color: #00ACDA;
+        color: #F0F0F0;
+        text-shadow: 0px 1px 0px #BDBEC2;
+    }
+}
+
+.applied:active {
+    position: relative;
+    top: 1px;
+}
+
+.productList {
+    height: auto;
+    min-height: 200px;
+}
+
+.read-table {
+    width: 100%;
+}
+
+.tableHeaders {
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid #BDBEC2;
+    background-color: #00ACDA;
+    color: #BDBEC2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.records {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+td {
+    border-left: 2px solid #BDBEC2;
+    border-right: 2px solid #BDBEC2;
+    border-bottom: 2px solid #BDBEC2;
+}
+
+tfoot td {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #BDBEC2;
+    color: #00ACDA;
+    border: 2px solid #00ACDA
+}
+
+
+/* UI Design */
+
+.ui-underline {
+    border: none;
+    border-bottom: 2px solid #00ACDA;
+    outline: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: #696969;
+}
+
+.ui-underline::placeholder {
+    font-weight: bold;
+    ;
+}
+
+.ui-form-white,
+.ui-form-white .ui-placeholder span {
+    color: #FFF;
+}
+
+.ui-form-white input::placeholder,
+.ui-form-white textarea::placeholder {
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.ui-form-white input,
+.ui-form-white textarea {
+    border-bottom-color: #FFF;
+}
+
+.ui-form-white .ui-underline {
+    color: #fff;
+}
+
+.ui-form-black,
+.ui-form-black .ui-placeholder span {
+    color: #000;
+}
+
+.ui-form-black input::placeholder,
+.ui-form-black textarea::placeholder {
+    color: #000;
+    opacity: 0.5;
+}
+
+.ui-form-black input,
+.ui-form-black textarea {
+    border-bottom-color: #000;
+}
+
+.ui-form-black .ui-underline {
+    color: #000;
+}
+
+.ui-placeholder {
+    position: relative;
+    perspective: 100px;
+}
+
+.ui-placeholder input,
+.ui-placeholder textarea {
+    width: 100%;
+    background-color: transparent;
+}
+
+.ui-placeholder input~span,
+.ui-placeholder textarea~span {
+    visibility: visible;
+    position: absolute;
+    opacity: 0;
+    display: inline-block;
+    transition: all 1s cubic-bezier(.08, .86, .35, .94);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00ACDA;
+}
+
+.ui-placeholder input:not(:placeholder-shown)~span,
+.ui-placeholder textarea:not(:placeholder-shown)~span {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* perspective origin */
+
+.ui-placeholder.ui-leftTop {
+    perspective-origin: left top;
+}
+
+.ui-placeholder.ui-centerTop {
+    perspective-origin: center center;
+}
+
+.ui-placeholder.ui-rightTop {
+    perspective-origin: right top;
+}
+
+.ui-placeholder.ui-leftBottom {
+    perspective-origin: left bottom;
+}
+
+.ui-placeholder.ui-centerBottom {
+    perspective-origin: center bottom;
+}
+
+.ui-placeholder.ui-rightBottom {
+    perspective-origin: right bottom;
+}
+
+.ui-placeholder.ui-leftTopCorner {
+    perspective-origin: left top;
+}
+
+.ui-placeholder.ui-leftCenter {
+    perspective-origin: left center;
+}
+
+.ui-placeholder.ui-leftBottomCorner {
+    perspective-origin: left bottom;
+}
+
+.ui-placeholder.ui-rightTopCorner {
+    perspective-origin: right top;
+}
+
+.ui-placeholder.ui-rightCenter {
+    perspective-origin: right center;
+}
+
+.ui-placeholder.ui-rightBottomCorner {
+    perspective-origin: right bottom;
+}
+
+
+/* set position */
+
+.ui-placeholder.ui-leftTop input~span,
+.ui-placeholder.ui-leftTop textarea~span {
+    bottom: 100%;
+    left: 0;
+}
+
+.ui-placeholder.ui-centerTop input~span,
+.ui-placeholder.ui-centerTop textarea~span {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ui-placeholder.ui-rightTop input~span,
+.ui-placeholder.ui-rightTop textarea~span {
+    bottom: 100%;
+    right: 0;
+}
+
+.ui-placeholder.ui-leftBottom input~span,
+.ui-placeholder.ui-leftBottom textarea~span {
+    top: 100%;
+}
+
+.ui-placeholder.ui-centerBottom input~span,
+.ui-placeholder.ui-centerBottom textarea~span {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ui-placeholder.ui-rightBottom input~span,
+.ui-placeholder.ui-rightBottom textarea~span {
+    top: 100%;
+    right: 0;
+}
+
+.ui-placeholder.ui-leftTopCorner input~span,
+.ui-placeholder.ui-leftTopCorner textarea~span {
+    right: calc(100% + 5px);
+    top: 0;
+    width: 200px;
+    text-align: right;
+}
+
+.ui-placeholder.ui-leftCenter input~span,
+.ui-placeholder.ui-leftCenter textarea~span {
+    right: calc(100% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    text-align: right;
+}
+
+.ui-placeholder.ui-leftBottomCorner input~span,
+.ui-placeholder.ui-leftBottomCorner textarea~span {
+    right: calc(100% + 5px);
+    bottom: 0;
+    width: 200px;
+    text-align: right;
+}
+
+.ui-placeholder.ui-rightTopCorner input~span,
+.ui-placeholder.ui-rightTopCorner textarea~span {
+    left: calc(100% + 5px);
+    top: 0;
+    width: 200px;
+    text-align: left;
+}
+
+.ui-placeholder.ui-rightCenter input~span,
+.ui-placeholder.ui-rightCenter textarea~span {
+    left: calc(100% + 5px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    text-align: left;
+}
+
+.ui-placeholder.ui-rightBottomCorner input~span,
+.ui-placeholder.ui-rightBottomCorner textarea~span {
+    left: calc(100% + 5px);
+    bottom: 0;
+    width: 200px;
+    text-align: left;
+}
+
+
+/* slide effects */
+
+
+/**************************************************************/
+
+.ui-placeholder.ui-leftTop.ui-slide textarea~span,
+.ui-placeholder.ui-centerTop.ui-slide textarea~span,
+.ui-placeholder.ui-rightTop.ui-slide textarea~span,
+.ui-placeholder.ui-leftTop.ui-slide input~span,
+.ui-placeholder.ui-centerTop.ui-slide input~span,
+.ui-placeholder.ui-rightTop.ui-slide input~span {
+    bottom: 90%;
+}
+
+.ui-placeholder.ui-leftBottom.ui-slide textarea~span,
+.ui-placeholder.ui-centerBottom.ui-slide textarea~span,
+.ui-placeholder.ui-rightBottom.ui-slide textarea~span,
+.ui-placeholder.ui-leftBottom.ui-slide input~span,
+.ui-placeholder.ui-centerBottom.ui-slide input~span,
+.ui-placeholder.ui-rightBottom.ui-slide input~span {
+    top: 90%;
+}
+
+.ui-placeholder.ui-leftTopCorner.ui-slide textarea~span,
+.ui-placeholder.ui-leftCenter.ui-slide textarea~span,
+.ui-placeholder.ui-leftBottomCorner.ui-slide textarea~span,
+.ui-placeholder.ui-leftTopCorner.ui-slide input~span,
+.ui-placeholder.ui-leftCenter.ui-slide input~span,
+.ui-placeholder.ui-leftBottomCorner.ui-slide input~span {
+    right: 95%;
+}
+
+.ui-placeholder.ui-rightTopCorner.ui-slide textarea~span,
+.ui-placeholder.ui-rightCenter.ui-slide textarea~span,
+.ui-placeholder.ui-rightBottomCorner.ui-slide textarea~span,
+.ui-placeholder.ui-rightTopCorner.ui-slide input~span,
+.ui-placeholder.ui-rightCenter.ui-slide input~span,
+.ui-placeholder.ui-rightBottomCorner.ui-slide input~span {
+    left: 95%;
+}
+
+.ui-placeholder.ui-leftTop.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerTop.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightTop.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftTop.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerTop.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightTop.ui-slide input:not(:placeholder-shown)~span {
+    bottom: 100%;
+}
+
+.ui-placeholder.ui-leftBottom.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerBottom.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightBottom.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftBottom.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerBottom.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightBottom.ui-slide input:not(:placeholder-shown)~span {
+    top: 100%;
+}
+
+.ui-placeholder.ui-leftTopCorner.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftCenter.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftBottomCorner.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftTopCorner.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftCenter.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftBottomCorner.ui-slide input:not(:placeholder-shown)~span {
+    right: calc(100% + 5px);
+}
+
+.ui-placeholder.ui-rightTopCorner.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightCenter.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightBottomCorner.ui-slide textarea:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightTopCorner.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightCenter.ui-slide input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightBottomCorner.ui-slide input:not(:placeholder-shown)~span {
+    left: calc(100% + 5px);
+}
+
+
+/* zoom effects */
+
+.ui-placeholder.ui-zoom input~span,
+.ui-placeholder.ui-zoom textarea~span {
+    transform: translateZ(20px);
+}
+
+.ui-placeholder.ui-centerTop.ui-zoom input~span,
+.ui-placeholder.ui-centerTop.ui-zoom textarea~span {
+    transform: translateX(-50%) translateZ(20px);
+}
+
+.ui-placeholder.ui-centerBottom.ui-zoom input~span,
+.ui-placeholder.ui-centerBottom.ui-zoom textarea~span {
+    transform: translateX(-50%) translateZ(20px);
+}
+
+.ui-placeholder.ui-leftCenter.ui-zoom input~span,
+.ui-placeholder.ui-leftCenter.ui-zoom textarea~span {
+    transform: translateY(-50%) translateZ(20px);
+}
+
+.ui-placeholder.ui-rightCenter.ui-zoom input~span,
+.ui-placeholder.ui-rightCenter.ui-zoom textarea~span {
+    transform: translateY(-50%) translateZ(20px);
+}
+
+.ui-placeholder.ui-zoom input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-zoom textarea:not(:placeholder-shown)~span {
+    transform: translateZ(0px);
+}
+
+.ui-placeholder.ui-centerTop.ui-zoom input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerTop.ui-zoom textarea:not(:placeholder-shown)~span {
+    transform: translateX(-50%) translateZ(0px);
+}
+
+.ui-placeholder.ui-centerBottom.ui-zoom input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerBottom.ui-zoom textarea:not(:placeholder-shown)~span {
+    transform: translateX(-50%) translateZ(0px);
+}
+
+.ui-placeholder.ui-leftCenter.ui-zoom input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftCenter.ui-zoom textarea:not(:placeholder-shown)~span {
+    transform: translateY(-50%) translateZ(0px);
+}
+
+.ui-placeholder.ui-rightCenter.ui-zoom input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightCenter.ui-zoom textarea:not(:placeholder-shown)~span {
+    transform: translateY(-50%) translateZ(0px);
+}
+
+
+/* rotate effects */
+
+.ui-placeholder.ui-rotate input~span,
+.ui-placeholder.ui-rotate textarea~span {
+    transform: rotateY(180deg);
+}
+
+.ui-placeholder.ui-centerTop.ui-rotate input~span,
+.ui-placeholder.ui-centerTop.ui-rotate textarea~span {
+    transform: translateX(-50%) rotateY(180deg);
+}
+
+.ui-placeholder.ui-centerBottom.ui-rotate input~span,
+.ui-placeholder.ui-centerBottom.ui-rotate textarea~span {
+    transform: translateX(-50%) rotateY(180deg);
+}
+
+.ui-placeholder.ui-leftCenter.ui-rotate input~span,
+.ui-placeholder.ui-leftCenter.ui-rotate textarea~span {
+    transform: translateY(-50%) rotateY(180deg);
+}
+
+.ui-placeholder.ui-rightCenter.ui-rotate input~span,
+.ui-placeholder.ui-rightCenter.ui-rotate textarea~span {
+    transform: translateY(-50%) rotateY(180deg);
+}
+
+.ui-placeholder.ui-rotate input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rotate textarea:not(:placeholder-shown)~span {
+    transform: rotateY(0deg);
+}
+
+.ui-placeholder.ui-centerTop.ui-rotate input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerTop.ui-rotate textarea:not(:placeholder-shown)~span {
+    transform: translateX(-50%) rotateY(0deg);
+}
+
+.ui-placeholder.ui-centerBottom.ui-rotate input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-centerBottom.ui-rotate textarea:not(:placeholder-shown)~span {
+    transform: translateX(-50%) rotateY(0deg);
+}
+
+.ui-placeholder.ui-leftCenter.ui-rotate input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-leftCenter.ui-rotate textarea:not(:placeholder-shown)~span {
+    transform: translateY(-50%) rotateY(0deg);
+}
+
+.ui-placeholder.ui-rightCenter.ui-rotate input:not(:placeholder-shown)~span,
+.ui-placeholder.ui-rightCenter.ui-rotate textarea:not(:placeholder-shown)~span {
+    transform: translateY(-50%) rotateY(0deg);
+}
+
+
+/* Radio Start */
+
+.ui-checkbox {
+    display: inline-block;
+    position: relative;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    perspective: 100px;
+    transform-style: preserve-3d;
+    vertical-align: middle;
+}
+
+.ui-checkbox input {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    position: relative;
+    z-index: 100;
+    width: 20px;
+    height: 20px;
+}
+
+.ui-checkbox [data-checked]:before,
+.ui-checkbox .ui-checked {
+    content: attr(data-checked);
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+
+/* .ui-checkbox [data-unchecked]:after, .ui-checkbox .ui-unchecked{
+  content: attr(data-unchecked);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+} */
+
+
+/* 
+.ui-checkbox input:checked + [data-checked]:before, .ui-checkbox input:checked + .ui-custom .ui-checked{
+  visibility: visible;
+}
+
+.ui-checkbox input:not(:checked) + [data-unchecked]:after, .ui-checkbox input:not(:checked) + .ui-custom .ui-unchecked{
+  visibility: visible;
+} */
+
+
+/* Size */
+
+.ui-small {
+    width: 20px;
+    height: 20px;
+}
+
+.ui-small [data-checked]:before,
+.ui-small [data-unchecked]:after,
+.ui-small .ui-custom {
+    font-size: 16px;
+}
+
+.ui-small input {
+    width: 20px;
+    height: 20px;
+}
+
+.ui-medium {
+    width: 30px;
+    height: 30px;
+}
+
+.ui-medium [data-checked]:before,
+.ui-medium [data-unchecked]:after,
+.ui-medium .ui-custom {
+    font-size: 18px;
+}
+
+.ui-medium input {
+    width: 30px;
+    height: 30px;
+}
+
+.ui-large {
+    width: 50px;
+    height: 50px;
+}
+
+.ui-large [data-checked]:before,
+.ui-large [data-unchecked]:after,
+.ui-large .ui-custom {
+    font-size: 30px;
+}
+
+.ui-large input {
+    width: 50px;
+    height: 50px;
+}
+
+.ui-checkbox.noround {
+    border-radius: none !important;
+    border: none !important;
+}
+
+.ui-checkbox.round {
+    border-radius: 30%;
+}
+
+
+/* Color */
+
+.ui-checkbox.bg-default {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.ui-checkbox.bg-default {
+    border-color: #00ACDA;
+    background-color: transparent;
+    color: #00ACDA;
+}
+
+
+/* Fadein Animation */
+
+.ui-checkbox.ui-animation-fadein [data-checked]:before,
+.ui-checkbox.ui-animation-fadein .ui-checked {
+    opacity: 0;
+    transition: all 1s cubic-bezier(0, .98, .21, .96);
+}
+
+.ui-checkbox.ui-animation-fadein [data-unchecked]:after,
+.ui-checkbox.ui-animation-fadein .ui-unchecked {
+    opacity: 0;
+    transition: all 1s cubic-bezier(0, .98, .21, .96);
+}
+
+.ui-checkbox.ui-animation-fadein input:checked+[data-checked]:before,
+.ui-checkbox.ui-animation-fadein input:checked+.ui-custom .ui-checked {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ui-checkbox.ui-animation-fadein input:not(:checked)+[data-unchecked]:after,
+.ui-checkbox.ui-animation-fadein input:not(:checked)+.ui-custom .ui-unchecked {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* zoom Animation */
+
+.ui-checkbox.ui-animation-zoom [data-checked]:before,
+.ui-checkbox.ui-animation-zoom .ui-checked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) translateZ(-100px);
+}
+
+.ui-checkbox.ui-animation-zoom [data-unchecked]:after,
+.ui-checkbox.ui-animation-zoom .ui-unchecked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) translateZ(-100px);
+}
+
+.ui-checkbox.ui-animation-zoom input:checked+[data-checked]:before,
+.ui-checkbox.ui-animation-zoom input:checked+.ui-custom .ui-checked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) translateZ(0px);
+}
+
+.ui-checkbox.ui-animation-zoom input:not(:checked)+[data-unchecked]:after,
+.ui-checkbox.ui-animation-zoom input:not(:checked)+.ui-custom .ui-unchecked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) translateZ(0px);
+}
+
+
+/* flip Animation */
+
+.ui-checkbox.ui-animation-flip [data-checked]:before,
+.ui-checkbox.ui-animation-flip .ui-checked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) rotateX(90deg);
+}
+
+.ui-checkbox.ui-animation-flip [data-unchecked]:after,
+.ui-checkbox.ui-animation-flip .ui-unchecked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) rotateX(90deg);
+}
+
+.ui-checkbox.ui-animation-flip input:checked+[data-checked]:before,
+.ui-checkbox.ui-animation-flip input:checked+.ui-custom .ui-checked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) rotateX(0deg);
+}
+
+.ui-checkbox.ui-animation-flip input:not(:checked)+[data-unchecked]:after,
+.ui-checkbox.ui-animation-flip input:not(:checked)+.ui-custom .ui-unchecked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) rotateX(0deg);
+}
+
+
+/* rotate Animation */
+
+.ui-checkbox.ui-animation-rotate [data-checked]:before,
+.ui-checkbox.ui-animation-rotate .ui-checked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) rotateY(360deg);
+}
+
+.ui-checkbox.ui-animation-rotate [data-unchecked]:after,
+.ui-checkbox.ui-animation-rotate .ui-unchecked {
+    transition: transform 1s cubic-bezier(0, .98, .21, .96);
+    transform: translateX(-50%) translateY(-50%) rotateY(360deg);
+}
+
+.ui-checkbox.ui-animation-rotate input:checked+[data-checked]:before,
+.ui-checkbox.ui-animation-rotate input:checked+.ui-custom .ui-checked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) rotateY(0deg);
+}
+
+.ui-checkbox.ui-animation-rotate input:not(:checked)+[data-unchecked]:after,
+.ui-checkbox.ui-animation-rotate input:not(:checked)+.ui-custom .ui-unchecked {
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) rotateY(0deg);
+}
+
+.element {
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.1); */
+    padding-bottom: 20px;
+    /* border: 1px solid #DDD; */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.element h4 {
+    padding-bottom: 10px;
+    text-align: left;
+    color: #00ACDA;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.el-child-inline {
+    display: inline-block;
+    margin: -15px 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Radio End */
+
+
+/* Application Form End */
